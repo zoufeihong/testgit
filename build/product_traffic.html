@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <title>短信验证码-云平台</title>
+    <link rel="stylesheet" href="combined/combined.css?v=de989c02d6bbf979045171e62509db75">
+    <style>@charset "UTF-8";.header{position:relative;width:100%;min-width:1200px;height:86px;background-color:#201f1f;box-shadow:0 0 10px #201f1f;z-index:98}.header .logo{margin-top:16px;line-height:42px}.header .logo a{color:#fff;font-size:20px}.header .nav>li{position:relative;float:left;height:86px;line-height:86px}.header .nav>li:hover .select-ul{display:block}.header .nav .mnav{margin-left:38px;padding-bottom:4px;font-size:16px;color:rgba(255,255,255,.4)}.header .nav .mnav:hover,.header .nav .nmav-active{color:#fff;border-bottom:2px solid #0081ff}.header .nav .trreg{margin-left:36px;padding:4px 8px;border-radius:4px 0 0 4px;background-color:#fff;color:#737980;font-size:14px}.header .nav .trreg:hover{box-shadow:0 0 14px #0081ff inset}.header .nav .trlogin{padding:4px 8px;margin-left:-4px;border-radius:0 4px 4px 0;background-color:#0081ff;color:#fff;font-size:14px}.header .nav .trlogin:hover{box-shadow:0 0 18px #fff inset}.header .nav .go-index{padding:4px 8px;border-radius:4px;background-color:#0081ff;color:#fff}.header .select-ul{display:none;position:absolute;top:84px;width:480px;padding:20px;background-color:#1246b8;color:#fff;z-index:999}.header .select-ul ul{padding:0 10px;float:left}.header .select-ul ul li{color:rgba(255,255,255,.4);font-size:18px;line-height:36px}.header .select-ul a{font-size:14px;color:#fff}.header .select-ul a:hover{border-bottom:2px solid #0081ff}.footer{min-width:1200px;overflow:hidden}.footer .join-us{background-color:#2a3843;padding:30px 0;text-align:center}.footer .join-us p{font-size:28px;color:#fff}.footer .join-us .freeReg-btn{margin-top:20px;padding:14px 40px;color:#fff;font-size:18px;background:#0081ff;border-radius:4px}.footer .foot-all{padding-top:20px;background-color:#202e39}.footer .foot-column{width:150px;float:left;margin:0 20px;line-height:22px}.footer .foot-column p{font-size:15px;margin-bottom:10px}.footer .foot-column a{color:#999}.footer .foot-column a:hover{color:#0081ff}.footer .foot-product{width:300px}.footer .foot-product li{width:150px;float:left}.footer .foot-contact{width:425px}.footer .weixin{text-align:center}.footer .weixin img{width:100%;height:100%}.footer .weixin span{color:#999}.footer .contact-us .QRcode{width:90px;height:90px;border:2px solid #2a3843}.footer .foot-search{width:300px;height:36px;padding:5px;margin-left:8px;margin-top:30px;background-color:#fff}.footer .foot-search .foot-search-txt{width:250px;height:25px;border:none;color:#999;border-right:1px solid #7b7d7d}.footer .foot-search .foot-search-btn{width:32px;height:24px;background:url(../img/icon_1.png) 0 0 no-repeat;border:none;cursor:pointer}.footer .foot-link{padding:18px 0;margin-top:30px;text-align:center;color:#999;border-top:1px solid #666}.foot-copy{background-color:#1c2932;padding:20px 0;text-align:center;color:#999}.foot-copy p{line-height:20px}.content{min-width:1200px;overflow:hidden}.section{color:#000;font-size:16px;padding:45px 0;text-align:center}.section .mod-title h3{font-size:28px;font-weight:400;padding-bottom:15px}.section .mod-title h5{font-size:20px;font-weight:400;padding-bottom:15px}.p-columns{margin-top:30px}.p-columns .p-column{position:absolute;width:230px;border:2px solid #f0f4f8;color:#575757}.p-columns .column-icon{height:230px;background-color:#f0f4f8}.p-columns .column-icon .p-pic{width:84px;height:120px;line-height:120px;margin:0 auto}.p-columns .column-icon .p-pic img{vertical-align:middle}.p-columns .column-icon h3{font-weight:400;font-size:24px;padding-top:15px}.p-columns .column-icon h5{font-size:18px;color:#999;font-weight:400;padding-top:15px}.p-columns .column-txt{padding:40px}.p-columns .column-txt p{line-height:40px}.p-columns .column-txt button{color:#0081ff;border:1px solid #0081ff;padding:8px 20px;border-radius:6px}.p-columns .p-detail{background-color:#fff;position:absolute;top:-28px;left:-40px;width:310px;height:475px;z-index:20;opacity:0;box-shadow:0 0 15px rgba(6,0,1,.1)}.p-columns .p-detail .detail-icon{width:100%;height:170px;background-color:#1246b8;color:#fff}.p-columns .p-detail .detail-icon .detail-pic{width:61px;margin:0 auto;padding-top:30px}.p-columns .p-detail .detail-icon h3,.p-columns .p-detail .detail-icon h5{font-size:18px;font-weight:400;padding-top:16px}.p-columns .p-detail .detail-txt{padding:25px}.p-columns .p-detail .menu-item .title{text-align:left;color:#000;font-size:18px;line-height:30px}.p-columns .p-detail .menu-item .des p{color:#575757;text-align:left;line-height:26px}.p-columns .p-detail .menu-item .shop{line-height:37px;text-align:right}.p-columns .p-detail .menu-item .shop .product-detail-btn{color:#1246b8;background-color:#fff;border:1px solid #1246b8;padding:6px 20px;border-radius:6px;font-size:12px}.p-columns .p-detail .menu-item .shop .product-detail-btn:hover{color:#fff;background-color:#1246b8}.column-box{position:relative;display:inline-block;width:230px;height:475px}.column-box-active .p-detail{opacity:1}.coopration-row .col{float:left;width:300px;line-height:120px}.coopration-row .col img{vertical-align:middle}.section-data{background:url(../img/data_bg.png) 0 0 no-repeat}.section-data ul li{margin:0 35px;float:left}.data-row{position:relative;width:230px;height:230px;font-size:24px}.data-row .data-line{position:absolute;width:100%;height:230px;border:2px solid #0081ff;border-top:none;border-left:none;border-radius:50%}.data-row .data-line:before{position:absolute;content:'';width:0;height:0;top:-6px;padding:6px;border-radius:50%;background-color:#0081ff}.data-row .data-text{position:absolute;top:70px;color:#0081ff;width:100%;text-align:center}.data-row .data-text strong{font-size:60px}.data-row .data-text span{color:rgba(255,255,255,.4)}.hotspot-section{background-color:#ecf9ff}.hotspot{padding:30px 100px}.hotspot .hotspot-img{float:left;width:40%}.hotspot .hotspot-img img{width:100%}.hotspot .hotspot-ul{float:left;width:60%;padding-left:60px;text-align:left}.hotspot .hotspot-ul li{line-height:30px;list-style-type:disc;color:#575757}.hotspot .hotspot-ul li .text{max-width:66%;vertical-align:middle;white-space:nowrap;word-wrap:normal;word-break:break-all;overflow:hidden;text-overflow:ellipsis;border-bottom:2px solid transparent}.hotspot .hotspot-ul li .text:hover{border-bottom:2px solid #0081ff}.hotspot .hotspot-ul li .new-date{float:right}.login-banner{width:100%;background:url(../img/login_banner.jpg) 0 0 no-repeat}.mod-login .banner-text{margin-left:270px;padding-top:90px}.mod-login .banner-text h3{font-size:28px;color:#61f6f4}.mod-login .banner-text .des-text{padding-top:20px;font-size:16px;color:#51e4f6;line-height:20px}.mod-login .login-content{width:380px;background-color:#fff;padding:20px;margin-left:100px;margin-top:20px;margin-bottom:50px}.mod-login .login-content .login-title{line-height:30px;text-align:center;font-size:18px;color:#0081ff;padding-top:15px}.mod-login .login-content .login-title span{border-bottom:1px solid #0081ff}.mod-login .login-content .login-text{color:#000;text-align:center;padding:15px 0}.mod-login .login-content .login-text h3{font-weight:400}.mod-login .login-content .login-text h5{color:rgba(0,0,0,.4);padding-top:10px}.mod-login .login-content .login-from{position:relative;width:240px;margin:20px auto 0}.mod-login .login-content .login-from .login-message{position:absolute;color:#fc4343;top:-18px}.mod-login .login-content .login-from input{width:100%;height:30px;border-radius:4px;border:1px solid #000;padding:7px 8px;color:#000}.mod-login .login-content .login-from .field{padding:10px 0}.mod-login .login-content .login-from .reg-link{padding-top:10px;text-align:right}.mod-login .login-content .login-from .reg-link a{color:rgba(0,0,0,.4)}.mod-login .login-content .login-from .login-submit{margin-top:30px}.mod-login .login-content .login-from .login-submit input{color:#fff;border:none;background-color:#0081ff;cursor:pointer}.mod-login .login-content .login-from .forgetpwd{text-align:center;border-top:1px solid #ddd;margin-top:20px;padding-top:10px}.mod-login .login-content a:hover{text-decoration:underline}.banner{position:relative;width:100%;min-width:1200px}.banner img{width:100%}.banner-group{position:absolute;top:0;padding-left:120px;padding-top:60px}.banner-group h1{padding:20px 0}.banner-group .des-text{padding:20px 0;line-height:36px;font-size:20px}.banner-group .des-btn a{display:inline-block;padding:10px 20px;color:#1246b8;background-color:#fff;font-size:20px;border-radius:4px;box-shadow:0 0 20px #aaa;margin-right:20px}.mod-warp{background-color:#fff;padding:50px 0;color:#000}.mod-title h2{display:inline-block;font-size:30px;font-weight:600}.mod-title hr{display:inline-block;width:800px}.mod-title span{font-size:20px;color:#575757}.mod-content{margin-top:40px;padding-left:60px}.mod-content .mod-content-p{display:inline-block;width:45%;margin-right:100px;line-height:1.5em;font-size:16px}.mod-content .mod-content-img{vertical-align:middle}.mod-content .mod-content-title{padding:15px 0}.mod-content .mod-content-title span{text-align:center;display:inline-block;font-size:18px}.mod-content .mod-content-ul{box-shadow:0 0 8px #ccc}.mod-content .mod-content-ul .td-1,.mod-content .mod-content-ul .td-2,.mod-content .mod-content-ul .td-3{padding:20px;display:inline-block;vertical-align:middle}.mod-content .mod-content-ul .td-1{width:19%;background-image:url(../img/sprite/pro_icon.png);background-repeat:no-repeat;padding-left:100px;font-weight:600;font-size:18px}.mod-content .mod-content-ul .td-2{width:40%;border-left:1px solid #eee;border-right:1px solid #eee}.mod-content .mod-content-ul .td-3{width:40%}.mod-content .mod-content-ul .td-icon1{background-position:20px -48px}.mod-content .mod-content-ul .td-icon2{background-position:20px -202px}.mod-content .mod-content-ul .td-icon3{background-position:20px -358px}.mod-content .mod-content-ul .td-icon4{background-position:20px -512px}.mod-content .mod-content-ul li{line-height:1.5em;border-bottom:1px solid #ccc}.customer-case{background-color:#f8fafc}.customer-case .customer-case-content{padding-top:20px;padding-bottom:20px}.customer-case .case-show{float:left;width:260px;height:325px;background-color:#fff;margin:0 5px;box-shadow:0 0 20px #ccc}.pro-introduction{background-color:#f8fafc}.pro-advantage{background-color:#ecf9ff}.pro-advantage-content li{width:50%;float:left;margin-bottom:40px}.pro-advantage-content .advantage-item-img{float:left;width:224px;height:224px;background-color:#fff;border-radius:112px;box-shadow:0 0 20px #ccc;padding:38px}.pro-advantage-content .advantage-item-text{float:left;margin-top:60px;margin-left:20px}.pro-advantage-content .advantage-item-text h3{padding:10px 0;font-weight:400;font-size:24px}.pro-advantage-content .advantage-item-text p{line-height:1.5em;color:#999;font-size:20px}.pro-scenarios{background-color:#fff}.pro-scenarios-content li{float:left;width:25%}.pro-scenarios-content .scenario-item{background-image:url(../img/product/scenarios_icon.png);background-repeat:no-repeat;height:183px;line-height:183px;text-align:center;color:#fff;font-size:22px}.pro-scenarios-content .scenario-item1{background-position:0 0}.pro-scenarios-content .scenario-item2{background-position:-312px 0}.pro-scenarios-content .scenario-item3{background-position:-624px 0}.pro-scenarios-content .scenario-item4{background-position:-936px 0}.banner-tel .banner-group,.banner-message .banner-group,.banner-Speech .banner-group{left:700px}.progress-content{margin:40px auto;width:756px;height:100px;background:url(../img/progress_icon.png) 0 0 no-repeat}.progress-content li{float:left;color:#000}.progress-content .progress-list1{width:263px;height:76px;background:url(../img/progress_active1.png) 0 0 no-repeat;position:relative}.progress-content .progress-list1 span{position:absolute;top:80px;left:124px}.register-content{width:1000px;margin:30px auto;color:#000}.register-from{width:60%;float:left;padding:20px 10px;border-right:2px solid #ccc}.register-from .reg-group{margin-bottom:15px}.register-from .reg-group .pass-text-input{width:327px;padding:10px 11px;border-radius:4px;border:1px solid #000;color:#000}.register-from .reg-group .isAgree{width:16px;height:16px}.register-from .reg-group a{color:#0081ff}.register-from .reg-group a:hover{text-decoration:underline}.register-from .reg-group .pass-text-submit{padding:12px 0;width:327px;background-color:#0081ff;border:0;border-radius:4px;cursor:pointer}.login-box{float:left;padding:80px 0 0 100px}.login-box label{display:block;line-height:30px}.login-box .login-btn{display:block;padding:12px 0;width:270px;background-color:#0081ff;border:0;border-radius:4px;cursor:pointer;text-align:center;color:#fff;margin-bottom:15px}.login-box .fgtpwd{color:#0081ff}.login-box .fgtpwd:hover{text-decoration:underline}.getpass-content{width:756px;margin:0 auto}.getpass-phone-content{border-right:2px solid #ccc}.getpass-phone-content,.getpass-email-content{width:50%;height:300px;padding-top:80px;float:left;text-align:center}.getpass-phone-content a,.getpass-email-content a{display:block}.getpass-phone-content span,.getpass-email-content span{margin-top:20px;display:block;font-size:18px;color:#000}</style>
+    
+    
+</head>
+
+<body>
+	<header class="header w1200">
+	<div class="w1200">
+		<div class="logo fl">
+			<a href="">
+				<img src="../img/logo.png">
+				<span>云通信平台</span>
+			</a>
+		</div>
+		<ul class="nav fr">
+			<li><a href="index.html?v=46deac6f1ee79432ebd09a018a048463" class="mnav">首页</a></li>
+			<li>
+				<a href="" class="mnav">产品与服务</a>
+				<div class="select-ul">
+					<ul>
+						<li>验证类</li>
+						<li><a href="product_SMS.html?v=e5b0606e939977374fd9cfbb59009eb0">短信验证码</a></li>
+						<li><a href="product_Speech.html?v=1338fed41bbf94da8cdbe7261b7f9fa9">语音验证码</a></li>
+					</ul>
+					<ul>
+						<li>营销类</li>
+						<li><a href="product_message.html?v=4884a2c5b5ad758f971317ca94ef6176">会员服务短信</a></li>
+						<li><a href="">会员服务彩信</a></li>
+					</ul>
+					<ul>
+						<li>流量类</li>
+						<li><a href="product_traffic.html?v=259ad0ce24de054671b04df18e11a5da">流量批发</a></li>
+					</ul>
+					<ul>
+						<li>物联网类</li>
+						<li><a href="product_InternetCard.html?v=486c340da506570e53797df9b87934a1">物联网卡</a></li>
+					</ul>
+					<ul>
+						<li>话费类</li>
+						<li><a href="product_tel.html?v=b1396ee9e2c909cb746de8180cc73c35">话费宝</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="" class="mnav">新闻中心</a></li>
+			<li><a href="" class="mnav">API文档</a></li>
+			<li><a href="" class="mnav">商务合作</a></li>
+			<li><a href="register.html?v=6957225d43378b94f7f299270045949d" class="trreg">免费注册</a></li>
+			<li><a href="login.html?v=1976946a12c1942199084f269d747ad9" class="trlogin">登录</a></li>
+		</ul>
+	</div>
+</header>
+	<div class="banner banner-message">
+		<div class="banner-img">
+			<img src="img/product/pro_traffic.jpg?v=5eaaa7d8d7bf3413eb629e9bff0c0371" />
+		</div>
+		<div class="w1200">
+			<div class="banner-group">
+				<h1>流酷流量平台</h1>
+				<div class="des-text">
+					<p>三网流量资源、智能管理后台 </p> 
+					<p>0成本接入，助你轻松快速获利</p>
+				</div>
+				<div class="des-btn">
+					<a href="">立即开通</a>
+					<a href="">接入文档</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mod-warp pro-introduction">
+		<div class="w1200">
+			<div class="mod-title">
+				<h2>产品简介/</h2>
+				<span>Product Introduction</span>
+				<hr>
+			</div>
+			<div class="mod-content">
+				<p class="mod-content-p">名传云通讯流量平台，融合三网资源，提供流量一键接入 和智能管理后台</p>
+				<img class="mod-content-img" src="img/product/pro_img3.png?v=03f1703052cb1190474ee28cf8801c5c">
+			</div>
+		</div>
+	</div>
+	<div class="mod-warp pro-scenarios">
+		<div class="w1200">
+			<div class="mod-title">
+				<h2>应用场景/</h2>
+				<span>Application Scenarios</span>
+				<hr>
+			</div>
+			<div class="mod-content pro-scenarios-content clearfix">
+				<ul>
+					<li><div class="scenario-item scenario-item1"><span>拉新推广</span></div></li>
+					<li><div class="scenario-item scenario-item2"><span>新品上线</span></div></li>
+					<li><div class="scenario-item scenario-item3"><span>提升活跃度</span></div></li>
+					<li><div class="scenario-item scenario-item4"><span>品牌宣传</span></div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mod-warp pro-advantage">
+		<div class="w1200">
+			<div class="mod-title">
+				<h2>产品优势/</h2>
+				<span>Product Advantage</span>
+				<hr>
+			</div>
+			<div class="mod-content pro-advantage-content clearfix">
+				<ul>
+					<li><div class="advantage-item"><div class="advantage-item-img"><img src="img/product/advantage_1.png?v=8f1dc2a76e6eeebe04f79313e729778a" alt=""></div><div class="advantage-item-text"><h3>自主产权</h3><p>拥有自主知识产权</p></div></div></li>
+					<li><div class="advantage-item"><div class="advantage-item-img"><img src="img/product/advantage_2.png?v=dd7120f26af2e6ad789374790501c6f6" alt=""></div><div class="advantage-item-text"><h3>智能简便</h3><p>只能操作<br>简单便捷</p></div></div></li>
+					<li><div class="advantage-item"><div class="advantage-item-img"><img src="img/product/advantage_3.png?v=900dabd5b5b5965d2c46b0f62501a917" alt=""></div><div class="advantage-item-text"><h3>人性化</h3><p>功能多样<br>细节设置更具人性化</p></div></div></li>
+					<li><div class="advantage-item"><div class="advantage-item-img"><img src="img/product/advantage_4.png?v=9c5c0acd1985ec5e36778600dcecd151" alt=""></div><div class="advantage-item-text"><h3>免费模板</h3><p>免费提供多维度营销模板</p></div></div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="mod-warp customer-case">
+		<div class="w1200">
+			<div class="mod-title">
+				<h2>客户案例/</h2>
+				<span>Customer case</span>
+				<hr>
+			</div>
+			<div class="mod-content customer-case-content clearfix">
+				<ul>
+					<li><div class="case-show"><img src=""></div></li>
+					<li><div class="case-show"><img src=""></div></li>
+					<li><div class="case-show"><img src=""></div></li>
+					<li><div class="case-show"><img src=""></div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	<div class="join-us">
+		<div class="w1200">
+			<p>现在就加入我们吧</p>
+			<button class="freeReg-btn">免费注册</button>
+		</div>
+	</div>
+	<div class="foot-all">
+		<div class="w1200 clearfix">
+			<div class="foot-main clearfix">
+				<div class="foot-column foot-product">
+					<p>产品与服务</p>
+					<ul>
+						<li><a href="">短信验证码</a></li>
+						<li><a href="">语言验证码</a><li>
+						<li><a href="">会员营销短信</a><li>
+						<li><a href="">会员营销彩信</a><li>
+						<li><a href="">流量营销</a><li>
+						<li><a href="">物联网卡</a><li>
+						<li><a href="">流量批发</a><li>
+						<li><a href="">话费充值</a></li>
+					</ul>
+				</div>
+				<div class="foot-column">
+					<p>共赢合作</p>
+					<ul>
+						<li><a href="">商务合作</a></li>
+						<li><a href="">人才招聘</a><li>
+					</ul>
+				</div>
+				<div class="foot-column">
+					<p>了解名传</p>
+					<ul>
+						<li><a href="">了解名传</a></li>
+						<li><a href="">了解名传</a><li>
+					</ul>
+				</div>
+				<div class="foot-column foot-contact">
+					<p>联系我们</p>
+					<div class="contact-us">
+						<div class="weixin fl">
+							<div class="QRcode">
+								<img src="../img/mchuan.png">
+							</div>
+							<span>官方微信</span>
+						</div>
+						<div class="foot-search fl">
+							<input type="tetx" name="" class="foot-search-txt" placeholder="CEO信箱：brian.chen@mchuan.com">
+							<input type="button" name="" class="foot-search-btn">
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="foot-link"><p>友情链接：<a href="http://www.mchuan.com/" target="_blank">http://www.mchuan.com/</a></p></div>
+		</div>
+	</div>
+	<div class="foot-copy">
+		<div class="w1200">
+			<p>主办单位：广州市单元信息科技有限公司</p>
+			<p>[版权所有Copyright@2012-2017 AII Right Reserved]</p>
+			<p>公司地址：广州市天河区体育西路189号城建大厦11楼</p>
+			<p>粤ICP备15046301号-2</p>
+		</div>
+	</div>
+</div>	
+</body>
+</html>

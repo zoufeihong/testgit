@@ -1,0 +1,1 @@
+var Project=function(){var n=function(){$(".p-columns").on("mouseover",".column-box",function(){$(this).addClass("column-box-active"),$(this).children(".p-detail").css("z-index",21)}),$(".p-columns").on("mouseout",".column-box",function(){$(this).removeClass("column-box-active"),$(this).children(".p-detail").css("z-index",20)})},o=function(){n()};return{init:o}}();
